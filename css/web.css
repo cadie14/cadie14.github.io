@@ -3,6 +3,10 @@ div{
     display: block;
     margin: auto 50%;
 }
+.ctr{
+    display: block;
+    margin: auto 50%;
+}
 h1{
     color: #24936f;
 }
