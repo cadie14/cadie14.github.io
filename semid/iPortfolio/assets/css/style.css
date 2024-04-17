@@ -10,7 +10,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 200;
   color: #272829;
 }
 
