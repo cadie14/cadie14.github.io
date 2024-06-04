@@ -9,20 +9,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-gbody {
-  background: linear-gradient(to bottom, #ffdb1d, #f2ffd6, #fcf7ec);
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 body {
   font-family: "Noto Sans TC", sans-serif;
