@@ -1,0 +1,48 @@
+body, html {
+    background: linear-gradient(to bottom, #ffdb1d, #f2ffd6, #fcf7ec);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.responsive-rectangle {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden; /* 隐藏溢出内容 */
+    display: flex;
+    flex-wrap: wrap; /* 允许换行 */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60rem; /* 固定宽度 */
+    height: 80vh; /* 固定高度 */
+
+}
+
+.responsive-rectangle img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.test{
+    display: flex;
+    overflow: clip;
+    margin: 20px;
+}
